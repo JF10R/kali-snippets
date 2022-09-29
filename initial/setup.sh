@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 echo "######################################"
 echo "## Built-in settings customization ###"
 echo "######################################"
@@ -30,6 +29,7 @@ sleep 2 # This is meant to allow cancelling at any point.
 # Locate the line below and edit the PROMPT_ALTERNATIVE variable just below it to PROMPT_ALTERNATIVE=oneline
 # START KALI CONFIG VARIABLES
 
+echo .
 echo "#######################"
 echo "## Folder Structure ###"
 echo "#######################"
@@ -67,6 +67,7 @@ sudo update-alternatives --config x-session-manager
 echo .
 echo "It is recommended to reboot after this."
 
+echo .
 echo "Installing Terminator..."
 sleep 2
 # Terminator
