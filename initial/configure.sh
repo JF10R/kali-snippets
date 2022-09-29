@@ -4,6 +4,10 @@
 # sudo adduser --home /home/<username> --shell /bin/zsh <username>
 # passwd <username>
 
+# Gnome desktop environment
+sudo apt install kali-desktop-gnome
+sudo update-alternatives --config x-session-manager
+# It is recommended to reboot after this.
 
 # Keyboard configuration
 # Choose "Generic 105-key PC", then "French (Canada)", then spam <Enter> thrice.
