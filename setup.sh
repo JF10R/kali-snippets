@@ -83,6 +83,15 @@ echo "This will require you to spawn new terminals for autocomplete to work (or 
 git clone https://github.com/ernw/nmap-parse-output ~/Github/nmap-parse-output
 echo 'autoload bashcompinit && bashcompinit && source ~/Github/nmap-parse-output/_nmap-parse-output' >> ~/.zshrc
 
+echo .
+echo "enum4linux-ng installation and setup..."
+echo "All the requirements are already met with an up-to-date or out of the box Kali instance."
+git clone https://github.com/cddmp/enum4linux-ng ~/Github/enum4linux-ng
+sudo ln -s "/home/$USER/Github/enum4linux-ng/enum4linux-ng.py" /usr/bin/enum4linux-ng
+echo "Symbolic link made for command enum4linux-ng pointing to /home/$USER/Github/enum4linux-ng/enum4linux-ng.py"
+echo .
+
+
 # see sources.list.d folder for apt sources for Google Chrome and VSCode.
 echo "Adding custom sources in /etc/apt/sources.list.d"
 echo " [+] Google-Chrome"
