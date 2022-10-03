@@ -81,7 +81,7 @@ echo "This will require you to spawn new terminals for autocomplete to work (or 
 # nmap-parse-output
 # https://github.com/ernw/nmap-parse-output
 git clone https://github.com/ernw/nmap-parse-output ~/Github/nmap-parse-output
-echo 'autoload bashcompinit && bashcompinit && source ~/Github/nmap-parse-output/_nmap-parse-output' >> ~.zshrc
+echo 'autoload bashcompinit && bashcompinit && source ~/Github/nmap-parse-output/_nmap-parse-output' >> ~/.zshrc
 
 # see sources.list.d folder for apt sources for Google Chrome and VSCode.
 echo "Adding custom sources in /etc/apt/sources.list.d"
